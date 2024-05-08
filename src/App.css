@@ -10,3 +10,46 @@
 body {
     font-family: "Poppines", sans-serif;
 }
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    border-radius: 5px;
+    padding: 15px 30px;
+    background: #27ae60;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button i {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
