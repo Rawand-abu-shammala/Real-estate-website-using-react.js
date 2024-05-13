@@ -22,7 +22,7 @@ header a:hover {
     color: #27ae60;
 }
 
- span {
+ span.list {
     width: auto;
     padding: 0 6px;
     background: #27ae60;
