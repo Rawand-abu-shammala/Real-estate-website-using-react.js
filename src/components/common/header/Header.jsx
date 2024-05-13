@@ -33,7 +33,7 @@ const Header = () => {
         </div>
 
         <div className="button flex">
-          <h4>
+          <h4 className='my-list'>
             <span className='list'>2</span> My List
           </h4>
           <button className='btn-1'>
