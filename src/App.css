@@ -96,6 +96,27 @@ h4 {
     font-weight: 500;
 }
 
+.shadow {
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+  }
+  .padding {
+    padding: 80px 0;
+  }
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .btn2 {
+    border-radius: 50px;
+    font-size: 20px;
+  }
+
 
 
 
