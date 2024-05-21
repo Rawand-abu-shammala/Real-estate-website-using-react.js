@@ -188,3 +188,28 @@ h4 {
     color: #fff;
     padding: 120px 0;
 }
+
+@media screen and (max-width: 800px) {
+    .grid4,
+    .grid3,
+    .grid5 {
+      grid-template-columns: repeat(2, 1fr);
+    
+    }
+
+    .heading {
+      width: 100%;
+    }
+
+    .container {
+      max-width: 90%;
+    }
+
+    .back::after,
+    .back img,
+    .back {
+      height: 30vh;
+    }
+    
+  }
+  
