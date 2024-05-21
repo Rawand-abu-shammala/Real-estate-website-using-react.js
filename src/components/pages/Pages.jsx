@@ -5,7 +5,7 @@ import Home from '../home/Home'
 import Footer from '../common/footer/Footer'
 import About from '../about/About'
 import Pricing from '../pricing/Pricing'
-
+import Blog from '../blog/Blog'
 
 
 const Pages = () => {
@@ -17,6 +17,8 @@ const Pages = () => {
       <Route index path='/' Component={Home}/>
       <Route path='/about' Component={About}/>
       <Route path='/pricing' Component={Pricing}/>
+      <Route path='/blog' Component={Blog}/>
+
 
     </Routes>
     <Footer />
