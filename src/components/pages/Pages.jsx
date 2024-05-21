@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Home from '../home/Home'
 import Footer from '../common/footer/Footer'
 import About from '../about/About'
+import Pricing from '../pricing/Pricing'
 
 
 
@@ -15,6 +16,7 @@ const Pages = () => {
     <Routes>
       <Route index path='/' Component={Home}/>
       <Route path='/about' Component={About}/>
+      <Route path='/pricing' Component={Pricing}/>
 
     </Routes>
     <Footer />
